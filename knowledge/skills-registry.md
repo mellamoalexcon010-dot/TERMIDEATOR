@@ -43,3 +43,20 @@ Example:
 | /shadcn-ui | Step 1 (scaffolding) | Set up and customize component library |
 | /seo-audit | Step 11 (polish) | Audit SEO before launch |
 ```
+
+---
+
+## New in v2: AI Product Skills
+
+| Skill | Phase | When to Use |
+|-------|-------|-------------|
+| `/deep-research` | Design | Comparing AI SDKs, LLM pricing, vector DB options |
+| `/frontend-design` | Build | AI result display, streaming chat UI |
+
+## New in v2: Marketplace Skills
+
+| Skill | Phase | When to Use |
+|-------|-------|-------------|
+| `/shadcn-ui` | Build | Browse page, listing cards, search filters |
+| `/seo-audit` | Post-launch | Listing pages and category pages need SEO |
+| `/playwright-cli` | Design | Analyzing competitor marketplace reference sites |
