@@ -324,7 +324,7 @@ If MRR flat →
 
 ---
 
-## Part 5: How This Enters The Architect
+## Part 5: How This Enters TERMIDEATOR
 
 **Section 18 (Analytics & Metrics) is EXPANDED:**
 

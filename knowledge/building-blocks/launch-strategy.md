@@ -283,7 +283,7 @@ If 2+ red flags → pause, gather feedback, iterate or pivot.
 
 ---
 
-## How This Enters The Architect
+## How This Enters TERMIDEATOR
 
 **Section 19-20 of Blueprint:**
 

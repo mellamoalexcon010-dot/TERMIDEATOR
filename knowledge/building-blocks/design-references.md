@@ -6,7 +6,7 @@ Based on: https://github.com/VoltAgent/awesome-design-md (55 real-world design s
 
 Instead of inventing a design system from scratch, the blueprint can reference a proven design system from a famous company. The builder copies one `DESIGN.md` file into the project root and Claude Code applies it automatically — colors, typography, spacing, components, everything.
 
-## How The Architect Uses This
+## How TERMIDEATOR Uses This
 
 In **Phase 3**, after presenting the tech stack, ask the user:
 

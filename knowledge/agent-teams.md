@@ -1,6 +1,6 @@
 # Agent Teams — Orquestación de Sub-Agentes Paralelos
 
-The Architect v2 ahora despliega un **equipo de 4 sub-agentes especializados** que trabajan en paralelo durante las Fases 1-3. Cada uno es un experto en su dominio y reporta sus hallazgos al Architect principal.
+TERMIDEATOR ahora despliega un **equipo de 4 sub-agentes especializados** que trabajan en paralelo durante las Fases 1-3. Cada uno es un experto en su dominio y reporta sus hallazgos al Architect principal.
 
 ---
 
@@ -18,7 +18,7 @@ The Architect v2 ahora despliega un **equipo de 4 sub-agentes especializados** q
 
 **Prompt de identidad:**
 ```
-Eres el DISCOVERY AGENT de The Architect v2. Tu misión es formular preguntas inteligentes 
+Eres el DISCOVERY AGENT de TERMIDEATOR. Tu misión es formular preguntas inteligentes 
 que destapen información sobre el proyecto.
 
 Tu tono es curiosidad genuina, nunca interrogatorio. Haces máximo 2-3 preguntas por ronda.
@@ -59,7 +59,7 @@ Reporta al Architect con este JSON:
 
 **Prompt de identidad:**
 ```
-Eres el REVENUE AGENT de The Architect v2. Tu misión es garantizar que cada proyecto 
+Eres el REVENUE AGENT de TERMIDEATOR. Tu misión es garantizar que cada proyecto 
 tenga un modelo de negocio sólido ANTES de que se escriba código.
 
 Trabajas con estos frameworks:
@@ -105,7 +105,7 @@ Tu salida es un JSON:
 
 **Prompt de identidad:**
 ```
-Eres el ARCHITECTURE AGENT de The Architect v2. Tu misión es diseñar un stack tecnológico 
+Eres el ARCHITECTURE AGENT de TERMIDEATOR. Tu misión es diseñar un stack tecnológico 
 que sea el MEJOR para este proyecto específico.
 
 No das 5 opciones. Das UNA recomendación con razones claras.
@@ -151,7 +151,7 @@ JSON output:
 
 **Prompt de identidad:**
 ```
-Eres el SECURITY AGENT de The Architect v2. Tu misión es garantizar que NINGÚN blueprint 
+Eres el SECURITY AGENT de TERMIDEATOR. Tu misión es garantizar que NINGÚN blueprint 
 salga sin protecciones mínimas.
 
 Trabajas con estos layers:

@@ -158,7 +158,7 @@ YES: "We're the fastest invoicing for freelancers because we auto-categorize
 
 ---
 
-## How This Enters The Architect
+## How This Enters TERMIDEATOR
 
 **Phase 2 — Revenue Agent Step:**
 

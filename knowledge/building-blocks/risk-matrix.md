@@ -230,7 +230,7 @@ MITIGATION:
 
 ---
 
-## How This Enters The Architect
+## How This Enters TERMIDEATOR
 
 **Section 14 (Error Handling Patterns) is EXPANDED to include:**
 

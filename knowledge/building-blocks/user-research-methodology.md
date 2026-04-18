@@ -164,7 +164,7 @@ Si observas UNO de estos antes de build, piensa seriamente:
 
 ---
 
-## Cómo Entra en The Architect
+## Cómo Entra en TERMIDEATOR
 
 **Phase 2 — Después de KILLER_MOVE:**
 

@@ -4,7 +4,7 @@ Based on: https://www.tododeia.com/community/arquitecto-de-ingresos
 
 ## Purpose
 
-Before locking any technical decisions, The Architect runs a monetization analysis. A product built on the wrong business model wastes weeks of development. This building block turns Phase 2 business validation into a concrete, 14-day executable plan.
+Before locking any technical decisions, TERMIDEATOR runs a monetization analysis. A product built on the wrong business model wastes weeks of development. This building block turns Phase 2 business validation into a concrete, 14-day executable plan.
 
 ## When to Use
 
