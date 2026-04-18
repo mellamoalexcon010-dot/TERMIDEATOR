@@ -368,7 +368,8 @@ Deliverable: {can sign up, log in, be redirected to dashboard}
 12. Rate limiting on auth routes: max 10 req/min per IP.
 13. Stripe webhook signatures always verified — never trust unverified webhook payloads.
 14. Never expose `SUPABASE_SERVICE_ROLE_KEY` to client-side code.
-15. {Project-specific rule}
+15. **Animation rules (Emil Kowalski):** never animate > 1s, ease-out entrances, ease-in exits, transform/opacity only, modals scale(0.96) not scale(0), always prefers-reduced-motion
+16. {Project-specific rule}
 
 ---
 
