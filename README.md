@@ -103,6 +103,7 @@ RLS policies SQL-ready, CORS config exacta, security headers — todo en el blue
 
 | Proyecto | Qué Agrega |
 |----------|------------|
+| [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) ⭐ 67.3k | 161 reglas de industria, 67 estilos, 57 tipografías — design system auto-generado |
 | [Awesome Design MD](https://github.com/VoltAgent/awesome-design-md) | 55 sistemas de diseño reales (Apple, Stripe, Notion...) |
 | [Protege Tu App](https://tododeia.com/community/protege-tu-app) | RLS + CORS + security headers listos para copiar |
 | [Arquitecto de Ingresos](https://tododeia.com/community/arquitecto-de-ingresos) | PROFIT_MATRIX + KILLER_MOVE_24H |

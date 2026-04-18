@@ -94,14 +94,27 @@ Read `questions/phase-2-branches.md` (archetype-specific section). Ask 3-5 targe
 
 Present tech stack + architecture with rationale. Be opinionated — one clear recommendation per decision.
 
-**For any frontend project:**
+**For any frontend project — Design System Pipeline (3 layers):**
+
+**Layer 1 — UI UX Pro Max (67.3k stars — Primary Design Intelligence)**
+- 161 industry reasoning rules, 67 UI styles, 57 font pairings, 161 color palettes
+- Install: `/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill`
+  OR: `npm install -g uipro-cli && uipro init --ai claude`
+- Activate: just describe the project type naturally — skill auto-fires
+- Persist design system: `python3 .claude/skills/ui-ux-pro-max/scripts/search.py "[type]" --design-system --persist -p "[Name]"`
+- Output: `design-system/MASTER.md` — include this path in Section 7
+- Covers: Pattern + Style + Colors + Typography + Effects + Anti-patterns + Checklist
+
+**Layer 2 — Awesome Design MD (Brand Reference)**
 - Read `knowledge/building-blocks/design-references.md`
-- Ask the user: "¿Quieres inspirarte en el diseño de alguna marca famosa? (Linear, Stripe, Notion, Apple, Spotify...)" — present only options that match the project type
-- If user picks a reference → include `DESIGN.md` setup in Section 7 and Step 1 of Build Order
-- If user wants custom → generate original color/typography system
-- Use `/ui-ux-pro-max` to design or refine the visual system
+- Ask: "¿Quieres inspirarte en alguna marca famosa? (Linear, Stripe, Notion, Apple, Spotify...)"
+- If yes → `curl -o DESIGN.md https://raw.githubusercontent.com/VoltAgent/awesome-design-md/main/design-md/[company]/DESIGN.md`
+- Apply DESIGN.md overrides on top of MASTER.md (Layer 1 wins for structure, Layer 2 wins for brand feel)
+
+**Layer 3 — Custom (if user wants something unique)**
+- Generate original color/typography system directly in Section 7
 - Suggest brand name and domain if not provided
-- If user shares reference site → use `/playwright-cli` to analyze it
+- If user shares reference site → use `/playwright-cli` to extract design tokens
 
 Confirm with user before Phase 3.5.
 
