@@ -23,10 +23,11 @@ Read `knowledge/agent-teams.md` for complete orchestration details.
 | REVENUE AGENT | Business model, monetization, unit economics | Profit matrix, KILLER_MOVE, CAC/LTV |
 | ARCHITECTURE AGENT | Tech stack, system design, trade-offs | Stack recommendation, rationale, risks |
 | SECURITY AGENT | Risk assessment, compliance, policies | Risk level, RLS templates, checklist |
+| 💸 **MARKETING** | Copy, SEO, growth, launch, retention | Landing copy + SEO plan + email sequences |
 
 **Execution model:**
 - Phase 1: DISCOVERY + REVENUE (in parallel) analyze initial idea
-- Phase 2: All 4 agents (in parallel) work on deep dive
+- Phase 2: All 5 agents (in parallel) work on deep dive — MARKETING runs alongside
 - Phase 3: Architect Main presents integrated findings from all agents
 - Phase 4: Blueprint incorporates all 4 agent reports
 
@@ -84,6 +85,16 @@ Read `questions/phase-2-branches.md` (archetype-specific section). Ask 3-5 targe
    - What to measure from day 1?
 
 **After all 5 validations, proceed to Phase 3.**
+
+**6. Marketing Intelligence** (`knowledge/marketing/marketing-playbook.md`):
+- Read this ALWAYS — marketing is not optional, it's part of the blueprint
+- MARKETING AGENT generates: landing copy, SEO plan, email sequences, churn signals
+- `npx skills add coreyhaines31/marketingskills` — include this in Section 15 (Skills to Use)
+- Key outputs per section:
+  - Phase 2: `pricing-strategy` validates business model
+  - Section 7: `copywriting` generates landing page copy
+  - Section 19: `seo-audit` + `social-content` + `content-strategy`
+  - Section 20: `launch-strategy` + `email-sequence` + `onboarding-cro`
 
 **Skill integration:**
 - Use `/deep-research` for unfamiliar tech comparisons

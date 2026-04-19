@@ -345,9 +345,20 @@ Deliverable: {can sign up, log in, be redirected to dashboard}
 
 ## 15. Skills to Use During Build
 
-| Skill | Build Step | Purpose |
-|-------|------------|---------|
-| {/skill-name} | {step number} | {what it helps with} |
+Install all: `npx skills add coreyhaines31/marketingskills`
+
+| Skill | Install | Build Step | Purpose |
+|-------|---------|------------|---------|
+| `ui-ux-pro-max` | `npx uipro-cli init --ai claude` | Step 1 | Design system generation |
+| `emil-design-eng` | `npx skills add emilkowalski/skill` | Step 1 | Animation & polish principles |
+| `copywriting` | `npx skills add coreyhaines31/marketingskills` | Step 2 (landing) | Landing page copy |
+| `seo-audit` | included above | Step 3 (pre-launch) | SEO technical audit |
+| `onboarding-cro` | included above | Step 4 (onboarding) | Optimize activation flow |
+| `email-sequence` | included above | Step 5 (emails) | Welcome + retention sequences |
+| `analytics-tracking` | included above | Step 6 (analytics) | PostHog events implementation |
+| `churn-prevention` | included above | Month 2+ | Churn signal detection |
+| `launch-strategy` | included above | Launch week | Blitz execution plan |
+| {additional-skill} | {install} | {step} | {purpose} |
 
 ---
 
@@ -477,17 +488,68 @@ user_churned (reason, ltv_at_churn)
 
 ## 19. Growth Hooks
 
-### Built-in Virality
-{What's in the product that naturally causes users to invite others or share}
+> Install: `npx skills add coreyhaines31/marketingskills`
+> Skills: seo-audit, programmatic-seo, competitor-alternatives, social-content, content-strategy, marketing-ideas
+
+### Landing Page Copy
+> Skill: `copywriting` + `marketing-psychology`
+
+**Hero headline:** {one pain point or outcome in 8 words}
+**Subheadline:** {how you solve it in 15 words}
+**CTA primary:** {action verb + outcome — e.g. "Empieza gratis", "Ver demo"}
+**3 pain points:** {specific pain 1}, {specific pain 2}, {specific pain 3}
+**Social proof angle:** {metric or testimonial that proves the headline}
 
 ### SEO Strategy
-{What pages are SEO-able, target keywords, programmatic SEO if applicable}
+> Skill: `seo-audit` + `programmatic-seo` + `site-architecture`
+
+**Primary pages to rank:**
+| Page | Keyword Target | Search Intent | Priority |
+|------|---------------|---------------|----------|
+| Home | {brand keyword} | Navigational | High |
+| {use-case page} | {long-tail keyword} | Informational | High |
+| Alternatives | "alternativa a [competidor]" | Commercial | Medium |
+| Blog | {problem keywords} | Informational | Medium |
+
+**Programmatic SEO:** {YES/NO — if yes, what template: "[tool] for [industry]"}
+**Schema markup:** {type: SoftwareApplication / LocalBusiness / FAQPage}
+
+### Built-in Virality
+> Skill: `marketing-ideas`
+
+{What's in the product that naturally causes users to invite others}
+- Referral mechanic: {how it works + incentive}
+- Sharing mechanic: {what users share + where}
+- Network effect: {does value increase with more users?}
+
+### Email Sequences
+> Skill: `email-sequence`
+
+| Sequence | Trigger | Emails | Goal |
+|----------|---------|--------|------|
+| Welcome | Signup | 4 (days 1/3/5/7) | Activation |
+| Inactive | 5 days no login | 3 | Re-engagement |
+| Upgrade | Hit limit | 3 | Free → Paid |
+| Churn save | Usage drop | 2 | Retention |
+
+### Content & Social
+> Skill: `social-content` + `content-strategy`
+
+**Primary channel:** {Twitter/X | LinkedIn | TikTok | Instagram}
+**Content cadence:** {X posts/week}
+**Content types:** {threads | tutorials | case studies | behind-the-scenes}
+**First 30 posts:** Run `social-content` skill after launch week 1
 
 ### Retention Mechanics
-{What brings users back: emails, notifications, streaks, saved work, teams}
+> Skill: `churn-prevention`
 
-### Referral Program (if applicable)
-{How referrals work, what the incentive is, technical implementation}
+**Churn signals to track in PostHog:**
+- No login in 7 days → trigger re-engagement email
+- Visited pricing page without converting → trigger upgrade sequence
+- < 2 core feature uses in 14 days → trigger activation email
+- NPS < 7 → Slack alert to founder
+
+**Expansion revenue:** {upsell trigger + what higher tier unlocks}
 
 ---
 
