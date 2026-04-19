@@ -115,3 +115,12 @@ src/
 - `knowledge/building-blocks/database-patterns.md` — Schema design, pagination, naming conventions
 - `knowledge/building-blocks/state-management.md` — Server Components for data display, Zustand for UI state
 - `knowledge/building-blocks/testing-patterns.md` — E2E tests for core workflows
+
+## Required Stack Skills
+
+```bash
+npx skills add vercel-labs/agent-skills/vercel-react-best-practices
+npx skills add supabase/agent-skills/supabase-postgres-best-practices
+npx skills add shadcn/ui/shadcn
+npx skills add obra/superpowers
+```

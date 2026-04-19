@@ -100,6 +100,8 @@ Read `questions/phase-2-branches.md` (archetype-specific section). Ask 3-5 targe
 - Use `/deep-research` for unfamiliar tech comparisons
 - Use `/find-skills` once to find BUILD phase skills
 - Read `knowledge/building-blocks/security-patterns.md` — always, for every project with auth or a database
+- Read `knowledge/building-blocks/dev-quality-skills.md` — always, adds dev quality rules to CLAUDE.md of target project
+- Read `knowledge/building-blocks/stack-specific-skills.md` — always, maps confirmed stack to its required skills
 
 ### Phase 3: ARCHITECTURE
 

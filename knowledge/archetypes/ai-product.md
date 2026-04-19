@@ -245,3 +245,13 @@ export async function POST(req: Request) {
 | `/frontend-design` | Building the AI result display and chat UI |
 | `/shadcn-ui` | Component setup |
 | `/deep-research` | Comparing AI SDKs and vector DB options |
+
+## Required Stack Skills
+
+```bash
+npx skills add vercel-labs/agent-skills/vercel-react-best-practices
+npx skills add supabase/agent-skills/supabase-postgres-best-practices
+npx skills add shadcn/ui/shadcn
+npx skills add vercel/ai/ai-sdk
+npx skills add obra/superpowers
+```

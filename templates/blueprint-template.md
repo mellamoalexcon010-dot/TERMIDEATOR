@@ -358,7 +358,17 @@ Install all: `npx skills add coreyhaines31/marketingskills`
 | `analytics-tracking` | included above | Step 6 (analytics) | PostHog events implementation |
 | `churn-prevention` | included above | Month 2+ | Churn signal detection |
 | `launch-strategy` | included above | Launch week | Blitz execution plan |
-| {additional-skill} | {install} | {step} | {purpose} |
+| `vercel-react-best-practices` | `npx skills add vercel-labs/agent-skills` | Every Next.js step | Server/Client components, caching, routing |
+| `supabase-postgres-best-practices` | `npx skills add supabase/agent-skills` | Every DB step | Queries, indexes, RLS advanced, migrations |
+| `shadcn` | `npx skills add shadcn/ui/shadcn` | Every UI component step | Component usage, composition, forms |
+| `subagent-driven-development` | `npx skills add obra/superpowers` | Tasks > 3 files | Parallel sub-agent execution |
+| `systematic-debugging` | included above | Any bug | Structured diagnosis, no guessing |
+| `verification-before-completion` | included above | End of every step | Verify before advancing |
+| `test-driven-development` | included above | Auth, payments, API | Write test first |
+| `requesting-code-review` | included above | Pre-deploy | Auto code review |
+| `finishing-a-development-branch` | included above | End of branch | Clean branch checklist |
+| `deploy-to-vercel` | `npx skills add vercel-labs/agent-skills` | Final deploy step | Automated deploy |
+| `firecrawl` | `npx skills add firecrawl/cli` | Phase 2 (competitor research) | Scrape competitors live |
 
 ---
 

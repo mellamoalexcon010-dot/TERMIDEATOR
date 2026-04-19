@@ -234,3 +234,13 @@ CREATE TABLE messages (
 | `/shadcn-ui` | Component library setup |
 | `/ui-ux-pro-max` | Search/filter UX design |
 | `/seo-audit` | Listing pages need SEO (category + individual listing URLs) |
+
+## Required Stack Skills
+
+```bash
+npx skills add vercel-labs/agent-skills/vercel-react-best-practices
+npx skills add supabase/agent-skills/supabase-postgres-best-practices
+npx skills add shadcn/ui/shadcn
+npx skills add firecrawl/cli/firecrawl
+npx skills add obra/superpowers
+```

@@ -133,3 +133,13 @@ sanity/                         # Sanity Studio config (if using Sanity)
 - `knowledge/building-blocks/database-patterns.md` — Full-text search, content schema design
 - `knowledge/building-blocks/deployment-patterns.md` — CDN, ISR configuration
 - `knowledge/building-blocks/testing-patterns.md` — E2E smoke tests for content rendering
+
+## Required Stack Skills
+
+```bash
+npx skills add vercel-labs/agent-skills/vercel-react-best-practices
+npx skills add supabase/agent-skills/supabase-postgres-best-practices
+npx skills add coreyhaines31/marketingskills/seo-audit
+npx skills add coreyhaines31/marketingskills/programmatic-seo
+npx skills add coreyhaines31/marketingskills/content-strategy
+```

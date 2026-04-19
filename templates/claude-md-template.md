@@ -90,3 +90,40 @@ Use this template when generating Section 15 of the blueprint. Fill in every sec
 - Code organization rules must be specific and actionable — "keep files short" is bad, "max 300 lines per component" is good.
 - Design system must include actual values (hex codes, px sizes) not vague descriptions.
 - Reglas are non-negotiable constraints. Include only rules that, if broken, would cause real problems.
+
+
+---
+
+## Skills to Install (run before building)
+
+```bash
+# Stack skills
+npx skills add vercel-labs/agent-skills/vercel-react-best-practices
+npx skills add supabase/agent-skills/supabase-postgres-best-practices
+npx skills add shadcn/ui/shadcn
+
+# Design pipeline
+npx uipro-cli init --ai claude
+npx skills add emilkowalski/skill
+
+# Dev quality
+npx skills add obra/superpowers
+
+# Marketing
+npx skills add coreyhaines31/marketingskills
+```
+
+## Dev Quality Rules (obra/superpowers)
+- Task > 3 files → use `subagent-driven-development`
+- Bug appears → use `systematic-debugging` (never guess)
+- Before marking step done → run `verification-before-completion`
+- Critical feature (auth/payments/API) → use `test-driven-development`
+- Before every deploy → use `requesting-code-review`
+- Closing a branch → use `finishing-a-development-branch`
+- New feature → use `writing-plans` before touching code
+
+## Stack Rules
+- Next.js patterns → always use `vercel-react-best-practices`
+- DB queries → always use `supabase-postgres-best-practices`
+- Components → use `shadcn` skill for implementation
+- Animations → use `emil-design-eng` skill for review

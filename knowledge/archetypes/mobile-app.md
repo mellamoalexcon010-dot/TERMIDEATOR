@@ -128,3 +128,14 @@ assets/
 - `knowledge/building-blocks/state-management.md` — TanStack Query + Zustand for mobile
 - `knowledge/building-blocks/api-design-patterns.md` — If building the backend API too
 - `knowledge/building-blocks/testing-patterns.md` — Mobile testing with Detox/Maestro
+
+## Required Stack Skills
+
+```bash
+npx skills add vercel-labs/agent-skills/vercel-react-native-skills
+npx skills add expo/skills/building-native-ui
+npx skills add expo/skills/native-data-fetching
+npx skills add expo/skills/expo-tailwind-setup
+npx skills add expo/skills/expo-deployment
+npx skills add obra/superpowers
+```

@@ -115,3 +115,13 @@ public/
 - `knowledge/building-blocks/deployment-patterns.md` — Vercel, Netlify, Cloudflare Pages comparison
 - `knowledge/building-blocks/styling-systems.md` — Tailwind v4 setup, typography system
 - `knowledge/building-blocks/testing-patterns.md` — E2E smoke tests for marketing sites
+
+## Required Stack Skills
+
+```bash
+npx skills add vercel-labs/agent-skills/vercel-react-best-practices
+npx skills add shadcn/ui/shadcn
+npx skills add coreyhaines31/marketingskills/seo-audit
+npx skills add coreyhaines31/marketingskills/copywriting
+npx skills add coreyhaines31/marketingskills/page-cro
+```

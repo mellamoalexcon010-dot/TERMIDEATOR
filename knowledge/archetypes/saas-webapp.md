@@ -122,3 +122,13 @@ public/
 - `knowledge/building-blocks/state-management.md` — Server Components + TanStack Query + Zustand (recommended combo)
 - `knowledge/building-blocks/deployment-patterns.md` — Vercel config, CI/CD, environment management
 - `knowledge/building-blocks/styling-systems.md` — Tailwind v4 setup, design tokens, shadcn/ui integration
+
+## Required Stack Skills
+
+```bash
+npx skills add vercel-labs/agent-skills/vercel-react-best-practices
+npx skills add supabase/agent-skills/supabase-postgres-best-practices
+npx skills add shadcn/ui/shadcn
+npx skills add vercel-labs/next-skills/next-best-practices
+npx skills add obra/superpowers
+```

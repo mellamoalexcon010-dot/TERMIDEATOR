@@ -131,3 +131,12 @@ export default app
 - `knowledge/building-blocks/auth-patterns.md` — JWT patterns, API key auth
 - `knowledge/building-blocks/deployment-patterns.md` — Railway, Fly.io, Docker config
 - `knowledge/building-blocks/testing-patterns.md` — Integration tests for every endpoint
+
+## Required Stack Skills
+
+```bash
+npx skills add wshobson/agents/nodejs-backend-patterns
+npx skills add wshobson/agents/typescript-advanced-types
+npx skills add supabase/agent-skills/supabase-postgres-best-practices
+npx skills add obra/superpowers
+```
