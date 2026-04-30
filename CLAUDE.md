@@ -24,10 +24,13 @@ Read `knowledge/agent-teams.md` for complete orchestration details.
 | ARCHITECTURE AGENT | Tech stack, system design, trade-offs | Stack recommendation, rationale, risks |
 | SECURITY AGENT | Risk assessment, compliance, policies | Risk level, RLS templates, checklist |
 | 💸 **MARKETING** | Copy, SEO, growth, launch, retention | Landing copy + SEO plan + email sequences |
+| 🧪 **QA** | Test cases, critical paths, E2E setup | Test files + coverage map + pre-launch checklist |
+| ⚖️ **LEGAL** | Compliance, privacy, ToS, GDPR | Risk level + required docs + flags |
+| 🚀 **DEVOPS** | CI/CD, monitoring, environments | GitHub Actions pipeline + monitoring stack |
 
 **Execution model:**
 - Phase 1: DISCOVERY + REVENUE (in parallel) analyze initial idea
-- Phase 2: All 5 agents (in parallel) work on deep dive — MARKETING runs alongside
+- Phase 2: All 8 agents (in parallel) — MARKETING + LEGAL + QA + DEVOPS run alongside
 - Phase 3: Architect Main presents integrated findings from all agents
 - Phase 4: Blueprint incorporates all 4 agent reports
 
@@ -100,6 +103,8 @@ Read `questions/phase-2-branches.md` (archetype-specific section). Ask 3-5 targe
 - Use `/deep-research` for unfamiliar tech comparisons
 - Use `/find-skills` once to find BUILD phase skills
 - Read `knowledge/building-blocks/security-patterns.md` — always, for every project with auth or a database
+- Read `knowledge/building-blocks/advanced-skills.md` — for Shannon (security audit), Excalidraw (diagrams), Remotion (videos), AccessLint
+- Read `knowledge/building-blocks/anthropic-design-skills.md` — for full 5-layer design pipeline
 - Read `knowledge/building-blocks/dev-quality-skills.md` — always, adds dev quality rules to CLAUDE.md of target project
 - Read `knowledge/building-blocks/stack-specific-skills.md` — always, maps confirmed stack to its required skills
 
