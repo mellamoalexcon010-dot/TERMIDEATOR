@@ -143,3 +143,15 @@ npx skills add coreyhaines31/marketingskills/seo-audit
 npx skills add coreyhaines31/marketingskills/programmatic-seo
 npx skills add coreyhaines31/marketingskills/content-strategy
 ```
+
+## Composition Skills (Next.js projects)
+
+```bash
+npx skills add vercel-labs/agent-skills/vercel-composition-patterns
+```
+
+Patterns for this archetype:
+- Shell pattern for authenticated layouts
+- Parallel routes for independent loading sections
+- Server Actions for all form mutations
+- Suspense around every async component

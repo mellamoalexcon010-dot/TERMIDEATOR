@@ -255,3 +255,15 @@ npx skills add shadcn/ui/shadcn
 npx skills add vercel/ai/ai-sdk
 npx skills add obra/superpowers
 ```
+
+## Composition Skills (Next.js projects)
+
+```bash
+npx skills add vercel-labs/agent-skills/vercel-composition-patterns
+```
+
+Patterns for this archetype:
+- Shell pattern for authenticated layouts
+- Parallel routes for independent loading sections
+- Server Actions for all form mutations
+- Suspense around every async component

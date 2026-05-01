@@ -107,6 +107,7 @@ Read `questions/phase-2-branches.md` (archetype-specific section). Ask 3-5 targe
 - Read `knowledge/building-blocks/anthropic-design-skills.md` — for full 5-layer design pipeline
 - Read `knowledge/building-blocks/dev-quality-skills.md` — always, adds dev quality rules to CLAUDE.md of target project
 - Read `knowledge/building-blocks/stack-specific-skills.md` — always, maps confirmed stack to its required skills
+- For any Next.js project: read `knowledge/building-blocks/vercel-composition-patterns.md` — Shell, Parallel Routes, Server Actions, Suspense
 
 ### Phase 3: ARCHITECTURE
 

@@ -366,6 +366,11 @@ Install all: `npx skills add coreyhaines31/marketingskills`
 | `verification-before-completion` | included above | End of every step | Verify before advancing |
 | `test-driven-development` | included above | Auth, payments, API | Write test first |
 | `requesting-code-review` | included above | Pre-deploy | Auto code review |
+| `impeccable/critique` | `npx skills add pbakaus/impeccable` | Post-build pass 1 | Honest design audit |
+| `impeccable/polish` | included above | Post-build pass 1 | Fix top visual issues |
+| `impeccable/delight` | included above | Post-build pass 2 | Micro-interactions |
+| `impeccable/harden` | included above | Post-build pass 2 | Error/loading/empty states |
+| `vercel-composition-patterns` | `npx skills add vercel-labs/agent-skills` | Every layout step | Shell, slots, Server Actions |
 | `finishing-a-development-branch` | included above | End of branch | Clean branch checklist |
 | `deploy-to-vercel` | `npx skills add vercel-labs/agent-skills` | Final deploy step | Automated deploy |
 | `firecrawl` | `npx skills add firecrawl/cli` | Phase 2 (competitor research) | Scrape competitors live |
